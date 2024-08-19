@@ -4,15 +4,12 @@ Feature: Reward Bing
   So that I can access orange HRM Live website
 
   Background:
-    Given user is on the login page
-    And user input email "donboskokian787@gmail.com"
-    And user input password "15Juli1962"
+    Given user is on the login page already
+    And user enters c username
+    And user enters c password
 
-  @BingReward2
-  Scenario: Bing Reward 2
-    And user input bing reward
-    And user enters click
-    Then bing reward success
-
-
-
+  @BingReward3
+  Scenario: Bing Reward 3
+    And user inputs bing reward
+    And user enters click button
+    Then bing reward succeeded
