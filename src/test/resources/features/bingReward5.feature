@@ -4,15 +4,12 @@
   So that I can access orange HRM Live website
 
   Background:
-    Given user is on the login page
-    And user input email "untukdipakai73@gmail.com"
-    And user input password "4Agustus2000"
+    Given user is on the login page already
+    And user enters e username
+    And user enters e password
 
-  @BingReward4
-  Scenario: Bing Reward 4
-    And user input bing reward
-    And user enters click
-    Then bing reward success
-
-
-
+  @BingReward5
+  Scenario: Bing Reward 5
+    And user inputs bing reward
+    And user enters click button
+    Then bing reward succeeded
