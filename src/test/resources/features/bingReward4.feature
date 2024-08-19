@@ -8,7 +8,7 @@ Feature: Reward Bing
     And user enters d username
     And user enters d password
 
-  @BingReward1
+  @BingReward4
   Scenario: Bing Reward 4
     And user inputs bing reward
     And user enters click button

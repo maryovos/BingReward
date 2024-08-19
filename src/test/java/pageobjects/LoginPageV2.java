@@ -265,7 +265,7 @@ public class LoginPageV2 extends BasePage {
             waitFor(ExpectedConditions.visibilityOf(searchbox2));
             searchbox2.typeAndEnter(keyword);
             try {
-                await().pollDelay(5, SECONDS).untilAsserted(() -> Assert.assertTrue(true));
+                await().pollDelay(2, SECONDS).untilAsserted(() -> Assert.assertTrue(true));
             } catch (Exception e){
                 e.printStackTrace();
             }
